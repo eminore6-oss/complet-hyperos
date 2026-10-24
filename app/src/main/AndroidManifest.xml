@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+ <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+ <queries><intent><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent></queries>
+ <application android:theme="@android:style/Theme.Material.Light.NoActionBar" android:label="HYPEROS A5 PRO" android:allowBackup="false">
+  <activity android:name=".SettingsActivity" android:exported="false"/>
+  <activity android:name=".ThemesActivity" android:exported="false"/>
+  <activity android:name=".MainActivity" android:exported="true">
+   <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.HOME"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>
+  </activity>
+ </application>
+</manifest>

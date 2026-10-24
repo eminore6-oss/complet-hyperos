@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'com.hyperosa5pro'
+ compileSdk 35
+ defaultConfig { applicationId 'com.hyperosa5pro'; minSdk 23; targetSdk 28; versionCode 5; versionName 'FINAL' }
+}
